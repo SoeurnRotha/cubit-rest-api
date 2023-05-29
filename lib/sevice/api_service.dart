@@ -20,7 +20,7 @@ class ApiSevice {
         throw Exception('Error products!');
       }
     } catch (e) {
-      throw 'Error products $e';
+      throw 'Error $e';
     }
   }
 }
